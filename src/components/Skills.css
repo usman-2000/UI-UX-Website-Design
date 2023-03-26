@@ -1,0 +1,125 @@
+.skills1 {
+  color: var(--color-indianred-100);
+}
+.my-skills {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 800;
+  font-family: inherit;
+}
+.skill-item-child {
+  position: relative;
+  border-radius: var(--br-11xl);
+  background: conic-gradient(
+    from 180deg at 50% 50%,
+    #f29492 -103.12deg,
+    #e9647a 45deg,
+    #e597c1 83.98deg,
+    #f29492 256.88deg,
+    #e9647a 405deg
+  );
+  width: 0.5rem;
+  height: 13.88rem;
+  flex-shrink: 0;
+}
+.i-believe-that,
+.what-can-i {
+  margin: 0;
+  position: relative;
+  line-height: 1.5rem;
+  display: inline-block;
+}
+.what-can-i {
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  width: 15.19rem;
+}
+.i-believe-that {
+  font-size: var(--font-size-sm);
+  width: 21.56rem;
+}
+.content1,
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.skill-item {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-xl);
+}
+.skill-item-item {
+  position: relative;
+  border-radius: var(--br-11xl);
+  background: conic-gradient(
+    from 180deg at 50% 50%,
+    #b1f292 -97.5deg,
+    #c2ffe2 45deg,
+    #cdffe7 121.87deg,
+    #b1f292 262.5deg,
+    #c2ffe2 405deg
+  );
+  width: 0.5rem;
+  height: 13.88rem;
+  flex-shrink: 0;
+}
+.applications-i-am {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 1.5rem;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  width: 20.81rem;
+}
+.skill-item-inner {
+  position: relative;
+  border-radius: var(--br-11xl);
+  background: conic-gradient(
+    from 180deg at 50% 50%,
+    #fd97ce -168.75deg,
+    #ff5bb4 45deg,
+    #ffbce0 103.13deg,
+    #fd97ce 191.25deg,
+    #ff5bb4 405deg
+  );
+  width: 0.5rem;
+  height: 13.88rem;
+  flex-shrink: 0;
+}
+.content,
+.skills,
+.skills-list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.skills-list {
+  flex-direction: row;
+  gap: var(--gap-19xl);
+  font-size: var(--font-size-3xl);
+}
+.content,
+.skills {
+  flex-direction: column;
+}
+.content {
+  gap: var(--gap-12xl);
+  text-align: left;
+  font-size: var(--font-size-26xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.skills {
+  position: absolute;
+  top: 112.06rem;
+  left: 0;
+  background-color: var(--color-gray-100);
+  padding: var(--padding-41xl) var(--padding-103xl);
+}

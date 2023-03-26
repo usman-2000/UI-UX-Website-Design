@@ -1,0 +1,115 @@
+.logo {
+  position: relative;
+  font-weight: 800;
+}
+.logotipo {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: inherit;
+  font-family: inherit;
+}
+.github-logo1,
+.shape-icon2 {
+  position: relative;
+  width: 1.09rem;
+  height: 1.06rem;
+}
+.github-logo1 {
+  text-decoration: none;
+  width: 1.13rem;
+  height: 1.13rem;
+  flex-shrink: 0;
+}
+.shape-icon3 {
+  position: relative;
+  width: 1.02rem;
+  height: 0.84rem;
+}
+.vector-icon1 {
+  position: absolute;
+  height: 86.67%;
+  width: 86.67%;
+  top: 6.67%;
+  right: 6.67%;
+  bottom: 6.67%;
+  left: 6.67%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.instagram-logo {
+  text-decoration: none;
+  position: relative;
+  width: 1.13rem;
+  height: 1.13rem;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.social-media {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.download-cv {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-base);
+  font-weight: 700;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+}
+.button-outline,
+.nav-icons {
+  flex-direction: row;
+  align-items: center;
+}
+.button-outline {
+  cursor: pointer;
+  border: 1px solid var(--color-black);
+  padding: var(--padding-base) var(--padding-21xl);
+  background-color: transparent;
+  border-radius: var(--br-41xl);
+  display: flex;
+  justify-content: center;
+}
+.nav-icons {
+  width: 19.06rem;
+  flex-shrink: 0;
+  gap: var(--gap-17xl);
+}
+.nav-icons,
+.container,
+.container-wrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+.container {
+  flex-direction: row;
+  align-items: center;
+  gap: 53.6rem;
+}
+.container-wrapper {
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: radial-gradient(
+    50% 50%at 50% 50%,
+    rgba(143, 143, 143, 0.02),
+    rgba(143, 143, 143, 0)
+  );
+  backdrop-filter: blur(12px);
+  flex-direction: column;
+  padding: var(--padding-11xl) var(--padding-103xl);
+  align-items: flex-start;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

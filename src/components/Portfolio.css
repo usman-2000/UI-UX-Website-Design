@@ -1,0 +1,62 @@
+.portflio-p,
+.portflio-h {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 3.31rem;
+  font-weight: 800;
+  font-family: inherit;
+  display: inline-block;
+  width: 45.44rem;
+}
+.portflio-h {
+  color: var(--color-indianred-100);
+}
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.mask-group-icon,
+.mask-group-icon1,
+.mask-group-icon2 {
+  position: relative;
+  width: 21.56rem;
+  height: 37.81rem;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.mask-group-icon1,
+.mask-group-icon2 {
+  width: 29rem;
+}
+.mask-group-icon2 {
+  width: 21.69rem;
+  height: 18.25rem;
+}
+.mask-group-parent,
+.portfolio,
+.portfolio-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.portfolio,
+.portfolio-item {
+  flex-direction: row;
+}
+.portfolio {
+  position: absolute;
+  top: 144.81rem;
+  left: 7.63rem;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-28xl);
+  text-align: center;
+  font-size: var(--font-size-33xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

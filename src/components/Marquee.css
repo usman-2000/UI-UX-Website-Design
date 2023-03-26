@@ -1,0 +1,134 @@
+.html51 {
+  margin: 0;
+  top: 1.13rem;
+  left: 7rem;
+}
+.css,
+.designer,
+.experiences,
+.figma1,
+.front-end,
+.html51,
+.javascript1,
+.uiux {
+  position: absolute;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+.css {
+  margin: 0;
+  top: 1.09rem;
+  left: 16.62rem;
+}
+.designer,
+.experiences,
+.figma1,
+.front-end,
+.javascript1,
+.uiux {
+  top: 1.03rem;
+  left: 23.74rem;
+}
+.designer,
+.experiences,
+.figma1,
+.front-end,
+.uiux {
+  top: 1rem;
+  left: 36.36rem;
+}
+.designer,
+.experiences,
+.front-end,
+.uiux {
+  top: 0.97rem;
+  left: 45.17rem;
+}
+.designer,
+.experiences,
+.uiux {
+  top: 1.01rem;
+  left: 57.29rem;
+}
+.experiences,
+.uiux {
+  top: 0.91rem;
+  left: 68.68rem;
+}
+.experiences {
+  top: 0.78rem;
+  left: 77.37rem;
+}
+.div,
+.div1 {
+  font-size: var(--font-size-16xl);
+  font-weight: 800;
+  color: var(--color-crimson);
+}
+.div {
+  position: absolute;
+  top: 0.7rem;
+  left: 13.49rem;
+}
+.div1 {
+  top: 0.76rem;
+  left: 21.05rem;
+}
+.div1,
+.div2,
+.div3 {
+  position: absolute;
+}
+.div2 {
+  top: 0.8rem;
+  left: 33.36rem;
+  font-size: var(--font-size-16xl);
+  font-weight: 800;
+  color: var(--color-crimson);
+}
+.div3 {
+  top: 0.58rem;
+  left: 42.36rem;
+}
+.div3,
+.div4,
+.div5 {
+  font-size: var(--font-size-16xl);
+  font-weight: 800;
+  color: var(--color-crimson);
+}
+.div4 {
+  position: absolute;
+  top: 0.56rem;
+  left: 54.29rem;
+}
+.div5 {
+  top: 0.63rem;
+  left: 65.48rem;
+}
+.div5,
+.div6,
+.marquee {
+  position: absolute;
+}
+.div6 {
+  top: 0.35rem;
+  left: 74.3rem;
+  font-size: var(--font-size-16xl);
+  font-weight: 800;
+  color: var(--color-crimson);
+}
+.marquee {
+  top: 45.09rem;
+  left: -1rem;
+  background-color: var(--color-black);
+  width: 91.96rem;
+  height: 3.75rem;
+  transform: rotate(-0.99deg);
+  transform-origin: 0 0;
+  text-align: center;
+  font-size: var(--font-size-lgi);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}

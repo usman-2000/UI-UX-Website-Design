@@ -1,0 +1,218 @@
+.about1,
+.me {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 800;
+  font-family: inherit;
+}
+.me {
+  color: var(--color-black);
+}
+.heading1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.a-creative-professional {
+  margin: 0;
+  position: relative;
+  line-height: 1.5rem;
+  text-transform: lowercase;
+  display: inline-block;
+  width: 33.75rem;
+}
+.shape-icon {
+  position: relative;
+  width: 1.09rem;
+  height: 1.06rem;
+}
+.github-logo {
+  text-decoration: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1.13rem;
+  height: 1.13rem;
+}
+.shape-icon1 {
+  position: relative;
+  width: 1.02rem;
+  height: 0.84rem;
+}
+.twitter-logo {
+  text-decoration: none;
+  position: absolute;
+  top: 0;
+  left: 2.19rem;
+  width: 1.13rem;
+  height: 1.13rem;
+}
+.frame,
+.vector-icon {
+  position: absolute;
+  overflow: hidden;
+}
+.vector-icon {
+  height: 86.67%;
+  width: 86.67%;
+  top: 6.67%;
+  right: 6.67%;
+  bottom: 6.67%;
+  left: 6.67%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.frame {
+  text-decoration: none;
+  top: 0;
+  left: 4.38rem;
+  width: 1.13rem;
+  height: 1.13rem;
+}
+.github-logo-parent {
+  position: relative;
+  width: 5.5rem;
+  height: 1.13rem;
+  flex-shrink: 0;
+}
+.description,
+.heading-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.description {
+  gap: var(--gap-lg);
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+}
+.heading-parent {
+  gap: var(--gap-mini);
+}
+.here-are-a {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: inherit;
+  line-height: 1.5rem;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  width: 33.75rem;
+}
+.frame-child {
+  position: relative;
+  width: 1.13rem;
+  height: 0.69rem;
+  flex-shrink: 0;
+}
+.figma {
+  margin: 0;
+  position: relative;
+  line-height: 1.5rem;
+  text-transform: capitalize;
+}
+.group-container,
+.group-parent {
+  position: absolute;
+  top: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.group-parent {
+  left: 0;
+}
+.group-container {
+  left: 10.81rem;
+}
+.javascript {
+  position: relative;
+  line-height: 1.5rem;
+  text-transform: capitalize;
+}
+.frame-div,
+.group-parent1,
+.group-parent2,
+.group-parent3 {
+  position: absolute;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.frame-div {
+  top: 0;
+  left: 22.13rem;
+}
+.group-parent1,
+.group-parent2,
+.group-parent3 {
+  top: 2.25rem;
+}
+.group-parent1 {
+  left: 0;
+}
+.group-parent2,
+.group-parent3 {
+  left: 10.81rem;
+}
+.group-parent3 {
+  left: 22.13rem;
+}
+.tags {
+  position: absolute;
+  top: 2.44rem;
+  left: 0;
+  width: 28.25rem;
+  height: 3.75rem;
+  font-size: var(--font-size-sm);
+}
+.here-are-a-few-technologies-i-parent {
+  position: relative;
+  width: 33.75rem;
+  height: 6.19rem;
+  flex-shrink: 0;
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+}
+.content8 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+}
+.image-1-icon {
+  position: relative;
+  border-radius: var(--br-21xl);
+  width: 35.31rem;
+  height: 24.19rem;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.about {
+  position: absolute;
+  top: 54rem;
+  left: 7.8rem;
+  width: 74.69rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  font-size: var(--font-size-26xl);
+  color: var(--color-indianred-100);
+  font-family: var(--font-inter);
+}

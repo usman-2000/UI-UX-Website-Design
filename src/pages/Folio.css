@@ -1,0 +1,55 @@
+.hero,
+.hero-child {
+  position: absolute;
+  height: 74.69rem;
+}
+.hero-child {
+  top: 16.25rem;
+  left: 11.31rem;
+  width: 74.69rem;
+}
+.hero {
+  top: -16.25rem;
+  left: -11.31rem;
+  width: 93.69rem;
+}
+.header,
+.header-child {
+  position: absolute;
+  left: 0;
+  width: 90rem;
+}
+.header-child {
+  top: 7rem;
+  background: radial-gradient(
+    50% 50%at 50% 50%,
+    rgba(143, 143, 143, 0.02),
+    rgba(143, 143, 143, 0)
+  );
+  backdrop-filter: blur(12px);
+  height: 0.19rem;
+}
+.header {
+  top: 0;
+  height: 7.19rem;
+}
+.all-rights-reserved {
+  margin: 0;
+  position: absolute;
+  top: 223.25rem;
+  left: 30.81rem;
+  line-height: 1.5rem;
+  display: inline-block;
+  width: 28.19rem;
+}
+.folio {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.96);
+  width: 100%;
+  height: 228.31rem;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}

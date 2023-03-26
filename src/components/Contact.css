@@ -1,0 +1,53 @@
+.contact-title {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 3.31rem;
+  font-weight: 800;
+  font-family: inherit;
+  display: inline-block;
+  width: 34.56rem;
+}
+.get-in-touch {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-family: var(--font-inter);
+  color: var(--color-gray-300);
+  text-align: left;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xl) var(--padding-41xl);
+  background-color: var(--color-white);
+  border-radius: var(--br-41xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.contact,
+.content4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.content4 {
+  align-items: center;
+  gap: var(--gap-10xl);
+}
+.contact {
+  position: absolute;
+  top: 200.31rem;
+  width: 100vw;
+  left: 0;
+  background-color: var(--color-gray-100);
+  height: 28rem;
+  padding: var(--padding-81xl) var(--padding-424xl);
+  box-sizing: border-box;
+  align-items: flex-start;
+  text-align: center;
+  font-size: var(--font-size-33xl);
+  color: var(--color-indianred-100);
+  font-family: var(--font-inter);
+}
